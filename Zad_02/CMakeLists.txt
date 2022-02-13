@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.21)
+project(Zad_02)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(Zad_02 02_00/02_00.cpp 02_01/02_01.cpp 02_02/02_02.cpp 02_03/02_03.cpp 02_04/02_04.cpp 02_05/02_05.cpp 02_06/02_06.cpp 02_07/02_07.cpp 02_08/02_08.cpp 02_09/02_09.cpp 02_10/02_10.cpp 02_11/02_11.cpp 02_12/02_12.cpp)
+
+add_executable(02_00 02_00/02_00.cpp)
+add_executable(02_01 02_01/02_01.cpp)
+add_executable(02_02 02_02/02_02.cpp)
+add_executable(02_03 02_03/02_03.cpp)
+add_executable(02_04 02_04/02_04.cpp)
+add_executable(02_05 02_05/02_05.cpp)
+add_executable(02_06 02_06/02_06.cpp)
+add_executable(02_07 02_07/02_07.cpp)
+add_executable(02_08 02_08/02_08.cpp)
+add_executable(02_09 02_09/02_09.cpp)
+add_executable(02_10 02_10/02_10.cpp)
+add_executable(02_11 02_11/02_11.cpp)
+add_executable(02_12 02_12/02_12.cpp)
